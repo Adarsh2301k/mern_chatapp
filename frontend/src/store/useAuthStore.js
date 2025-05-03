@@ -14,6 +14,7 @@ export const useAuthStore = create((set, get) => ({
   onlineUsers: [],
   socket: null,
 
+
   checkAuth: async () => {
     try {
       console.log("Checking authentication...");
